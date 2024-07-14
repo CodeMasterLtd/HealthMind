@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>HealthMind | Your Profile</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <img class="logo" src="img/icon.jpeg" alt="HealthMind">
+            <h1 class="HealthMind">HealthMind</h1>
+            <h2 class="HealthMind-slogan">Your Health, Your Journey - Empowering Wellness Every Day!</h2>
+            <h3 class="HealthMind-dots">----------</h3>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="profile.html">Profile</a>
+                <a href="#" id="logout">Logout</a>
+            </nav>
+        </header>
+        <main>
+            <h2 class="pageTitle">Your Profile</h2>
+            <section id="user-info">
+                <h2>Welcome, <span id="username-display"></span></h2>
+                <h3>Your Health Statistics</h3>
+                <div class="input-field">
+                    <label for="height">Height (cm):</label>
+                    <input type="number" id="height" name="height" placeholder="Enter height">
+                </div>
+                <div class="input-field">
+                    <label for="weight">Weight (kg):</label>
+                    <input type="number" id="weight" name="weight" placeholder="Enter weight">
+                </div>
+                <div class="input-field">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" placeholder="Enter age">
+                </div>
+                <div class="input-field">
+                    <label for="emergency-contacts">Emergency Contacts:</label>
+                    <textarea id="emergency-contacts" rows="3" placeholder="Enter emergency contacts"></textarea>
+                </div>
+                <div class="input-field">
+                    <label for="bmi">BMI:</label>
+                    <input type="number" id="bmi" name="bmi" placeholder="Enter BMI">
+                </div>
+                <button id="save-profile">Save Profile</button>
+                <p id="health-warning" class="health-warning"></p>
+                <textarea id="user-notes" rows="5" placeholder="Add your notes here..."></textarea>
+                <button id="save-notes">Save Notes</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>&copy; 2024 <a class="text" href="https://codemaster.ltd">Code Master</a> <a class="contact" href="https://codemaster.ltd/pages/contact">Contact Us</a><a class="policy" href="policy.html">Private Policy</a></footer>
+    <script src="script.js"></script>
+</body>
+</html>
